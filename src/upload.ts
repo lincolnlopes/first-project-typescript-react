@@ -21,5 +21,5 @@ export async function uploadFile(
   files: any,
   params?: FileParams
 ): Promise<File[]> {
-  return axios.post("/file/upload", { files, params });
+  return axios.default.post("/file/upload", { files, params });
 }
