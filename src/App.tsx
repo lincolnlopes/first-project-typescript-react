@@ -1,10 +1,11 @@
-import * as React from "react";
-import { render } from "react-dom";
-import ReactQuill from "react-quill";
-import "react-quill/dist/quill.snow.css";
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import Routes from './routes';
 
-const App = () => <ReactQuill />;
-
-render(<App />, document.getElementById("root"));
+const App: React.FC = () => (
+  <BrowserRouter>
+    <Routes />
+  </BrowserRouter>
+);
 
 export default App;

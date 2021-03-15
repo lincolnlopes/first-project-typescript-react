@@ -1,4 +1,4 @@
-import * as axios from "axios";
+import * as axios from 'axios';
 
 interface FileParams {
   saveOriginal?: boolean;
@@ -19,7 +19,7 @@ export interface File {
 
 export async function uploadFile(
   files: any,
-  params?: FileParams
+  params?: FileParams,
 ): Promise<File[]> {
-  return axios.default.post("/file/upload", { files, params });
+  return axios.default.post('/file/upload', { files, params });
 }
