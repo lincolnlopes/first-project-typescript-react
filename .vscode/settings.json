@@ -3,6 +3,7 @@
   "explorer.compactFolders": false,
   "workbench.editor.labelFormat": "short",
   "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnSave": true,
 
   "[javascript]": {
     "editor.codeActionsOnSave": {

@@ -39,10 +39,10 @@
     "import/extensions": [
       "error",
       "ignorePackages",
-      { "ts": "never", "tsx": "never" }
+      { "ts": "never", "tsx": "never", "svg":true }
     ]
   },
-  "ignoreRestArgs": false,
+
   "settings": {
     "import/resolver": {
       "typescript": {}
